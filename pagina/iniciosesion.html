@@ -1,0 +1,42 @@
+  <!--  Elaboracion de inicio de seion -->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Esto asegura que la página sea responsiva y se ajuste correctamente a diferentes dispositivos, especialmente móviles -->
+
+    <title>Iniciar Sesión</title>
+    <!-- El título de la página que aparecerá en la pestaña del navegador -->
+
+    <link rel="stylesheet" href="../diseño/iniciosesion-registro.css">
+    <!-- Vinculamos una hoja de estilos CSS externa para darle estilo a esta página -->
+</head>
+<body>
+    <div class="container-auth">
+        <!-- Contenedor principal para centrar y organizar el formulario de inicio de sesión -->
+        
+        <h2>Iniciar Sesión</h2>
+        <!-- Título que indica la funcionalidad de la página -->
+
+        <form>
+            <!-- Iniciamos un formulario básico para el inicio de sesión -->
+            <input type="text" placeholder="Nombre de usuario" required>
+            <!-- Campo de entrada para el nombre de usuario. El atributo "required" obliga al usuario a rellenarlo antes de enviar el formulario -->
+
+            <input type="password" placeholder="Contraseña" required>
+            <!-- Campo de entrada para la contraseña. Se usa el tipo "password" para ocultar los caracteres mientras se escriben -->
+
+            <button class="button" type="submit">Ingresar</button>
+            <!-- Botón para enviar el formulario. El tipo "submit" envía los datos cuando se hace clic -->
+        </form>
+
+        <p class="link">
+            <!-- Párrafo que contiene un enlace para redirigir a la página de registro si el usuario no tiene cuenta -->
+            ¿No tienes una cuenta? <a href="registro.html">Regístrate</a>
+            <!-- Enlace a la página de registro -->
+        </p>
+    </div>
+</body>
+</html>

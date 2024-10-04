@@ -1,0 +1,51 @@
+<!--elaboracion de registro-->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+   
+    <meta charset="UTF-8">
+    
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Esto permite que la página sea responsiva, ajustándose bien a dispositivos móviles -->
+
+    <title>Registro</title>
+    <!-- Título de la página que se mostrará en la pestaña del navegador -->
+
+    <link rel="stylesheet" href="../diseño/iniciosesion-registro.css">
+    <!-- Vinculamos una hoja de estilos externa para darle formato a la página -->
+</head>
+<body>
+    <div class="container-auth">
+        <!-- Contenedor principal para el formulario de registro -->
+        
+        <h2>Registro</h2>
+        <!-- Título de la página indicando que es un formulario de registro -->
+
+        <form>
+            <!-- Iniciamos el formulario de registro -->
+            
+            <input type="text" placeholder="Nombre completo" required>
+            <!-- Campo de texto para que el usuario ingrese su nombre completo. El atributo "required" hace que este campo sea obligatorio -->
+
+            <input type="email" placeholder="Correo electrónico" required>
+            <!-- Campo para ingresar un correo electrónico, que será validado para que sea un formato de email correcto -->
+
+            <input type="password" placeholder="Contraseña" required>
+            <!-- Campo de contraseña. El valor introducido será oculto mientras el usuario lo escribe -->
+            
+            <input type="password" placeholder="Confirmar contraseña" required>
+            <!-- Campo adicional para que el usuario confirme su contraseña, garantizando que ambos coincidan -->
+
+            <button class="button" type="submit">Crear cuenta</button>
+            <!-- Botón para enviar el formulario. El tipo "submit" enviará los datos introducidos -->
+        </form>
+
+        <p class="link">
+            <!-- Párrafo que contiene un enlace para redirigir al inicio de sesión -->
+            ¿Ya tienes una cuenta? <a href="iniciosesion.html">Iniciar sesión</a>
+            <!-- Enlace a la página de inicio de sesión para los usuarios que ya tienen una cuenta -->
+        </p>
+    </div>
+</body>
+</html>
