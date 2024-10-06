@@ -11,7 +11,7 @@
     <title>VarieShop - Inicio</title>
     <!-- Aquí damos un título a la pestaña del navegador -->
 
-    <link rel="stylesheet" href="../diseño/diseñopagina.css">
+    <link rel="stylesheet" href="../templates/css/diseñopagina.css">
     <!-- Vinculamos una hoja de estilos CSS externa para darle estilo a la página -->
 </head>
 <body>
@@ -24,11 +24,11 @@
 
         <nav>
             <!-- Aquí tenemos un menú de navegación básico con dos enlaces: uno para iniciar sesión y otro para registrarse -->
-            <a href="iniciosesion.html">Iniciar Sesión</a>
+            <a href="{% url "usuarios" %}">Iniciar Sesión</a>
             <!-- Aqui se asegura que se separen por un interlineado  -->
             <p style="display: inline-block; margin: 0 1px;font-size: 0.5em; ">/</p>
             
-            <a href="registro.html">Registrarse</a>
+            <a href="{% url "usuarios" %}">Registrarse</a>
         </nav>
     </header>
 
